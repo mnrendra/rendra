@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/rendra",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "rendra for @mnrendra",
   "private": false,
   "main": "lib/index.js",
