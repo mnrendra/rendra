@@ -6,7 +6,12 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "build": "rm -r lib && npx babel src --out-dir lib && npm --no-git-tag-version version patch"
+    "build": "rm -r lib && npx babel src --out-dir lib && npm --no-git-tag-version version patch",
+    "status": "git branch && git status",
+    "add": "git add . && git branch && git status",
+    "commit": "git add . && git commit",
+    "pull": "git fetch origin main && git pull origin main",
+    "push": "git fetch origin main && git pull origin main && git push origin main"
   },
   "repository": {
     "type": "git",
